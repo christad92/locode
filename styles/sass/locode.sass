@@ -1,0 +1,1817 @@
+body
+  font-family: regular
+  font-size: 10pt
+  padding-top: 55px
+  background-color: #f8f8f8
+
+$locode:rgba(10,170,220,1)
+
+.whiteBg
+  background: white
+
+svg
+  width: 10pt
+  height: auto
+
+.subTitle svg
+  opacity: 1
+  width: 15px
+  height: auto
+  margin-left: 5pt
+  margin-bottom: -4pt
+
+body a
+  text-decoration: none
+
+body button, textarea
+  border: none
+  background: none
+  outline: none
+
+input[type=submit]
+  border: none
+
+body button:focus, body button:active, body button:hover,
+input[type=submit]:focus, input[type=submit]:active
+  outline: none
+
+body button:hover, input[type=submit]:hover
+  cursor: pointer
+
+textarea
+  background-color: #f7f7f7
+  border-radius: 8pt
+  margin-bottom: 15pt
+  padding: 5pt
+  font-size: 9pt
+  width: 80%
+
+.spaceLetter
+  letter-spacing: 0.5px
+
+.spaceLetterFul
+  letter-spacing: 1px
+
+.spaceLine
+  line-height: 40pt
+
+.blackBg
+  background: black
+
+.modalSave, .modalCancel
+  background-color: #ccc
+  font-size: 11pt
+  padding-top: 10pt
+  padding-bottom: 10pt
+
+.modalSave
+  color: white
+  font-weight: lighter
+  width: 70%
+  background-color: $locode
+  border-radius: 0 0 8pt 0
+  transition: border-radius ease-in-out .2s
+  -webkit-transition: border-radius ease-in-out .2s
+  -moz-transition: border-radius ease-in-out .2s
+  -ms-transition: border-radius ease-in-out .2s
+
+.modalCancel
+  border-right: 2pt white solid
+  width: 30%
+  border-radius: 0 0 0 8pt
+  transition: border-radius ease-in-out .2s
+  -webkit-transition: border-radius ease-in-out .2s
+  -moz-transition: border-radius ease-in-out .2s
+  -ms-transition: border-radius ease-in-out .2s
+
+.buttom10
+  margin-bottom: 10pt
+
+.noShadow
+  box-shadow: none
+
+.margin10
+  margin: 10pt
+
+.padding10
+  padding: 10pt
+
+.zeroMargin
+  margin: 0
+
+.roundConners8
+  border-radius: 8pt
+
+.fixAtTop
+  top: 20%
+  position: fixed
+
+.fixAtBottom
+  bottom: 55pt
+  position: fixed
+
+.fixAtLeft
+  left: 5%
+  position: fixed
+
+
+.noDisplay
+  display: none
+
+.modalCancel:hover
+  cursor: pointer
+  border-radius: 0 15pt 0 8pt
+
+.modalSave:hover
+  cursor: pointer
+  border-radius: 15pt 0 8pt 0
+
+.makeBold
+  font-family: bold
+
+.colorLocode
+  color: $locode
+
+.whiteBackGround
+  background-color: white
+
+.nagativeMargin
+  margin-top: -10pt
+
+.blockTag
+  display: block
+  margin-left: auto
+  margin-right: auto
+
+.row
+  display: flex
+  display: -webkit-flex
+  flex-direction: row
+
+.col
+  display: flex
+  display: -webkit-flex
+  flex-direction: column
+
+.alignCenter
+  align-items: center
+
+.aligntop
+  align-items: baseline
+
+.flexCenter
+  justify-content: center
+
+.wrapFlex
+  flex-wrap: wrap
+
+.reversWrap
+  flex-wrap: wrap-reverse
+
+.spaceFlex
+  justify-content: space-between
+
+.endFlex
+  justify-content: flex-end
+
+.startFlex
+  justify-content: flex-start
+
+.aroundSpace
+  justify-content: space-around
+
+.centerFlex
+  justify-content: center
+
+.centerSelf
+  align-self: center
+
+.alignEnd
+  align-self: flex-end
+
+.alignStart
+  align-content: flex-start
+
+.fullWidth
+  width: 100%
+
+.halfWidth
+  width: 50%
+
+.quaterWidth
+  width: 25%
+
+.thridWidth
+  width: 33%
+
+.twoThirdWidth
+  width: 66%
+
+.threeQuaterWidth
+  width: 75%
+
+.alignTextLeft
+  text-align: left
+
+.alignTextRight
+  text-align: right
+
+.alignTextCenter
+  text-align: center
+
+.upperCase
+  text-transform: uppercase
+
+.locodeHover:hover
+  background-color: $locode
+  color: white
+  cursor: pointer
+
+.subHeader .activeLink, footer .activeLink
+  background-color: $locode
+  color: white
+
+.whiteCol
+  color: white
+
+.yellowCol
+  color: yellow
+
+.aboutFooter .indexMenu .activeItem
+  color: $locode
+
+.aboutFooter .indexMenu .activeItem:hover
+  border-bottom-color: black
+  cursor: default
+
+.subHeader .activeLink:hover, footer .activeLink:hover
+  background-color: $locode
+  color: white
+
+.borderButtom
+  border-bottom: thin lightgray soild
+
+.topCorrection1
+  padding-top: 40px
+
+.bottomCorrection
+  padding-bottom: 55px
+
+.padTop
+  padding-top: 80pt
+
+.padTop2
+  padding-top: 30pt
+
+.buttons, .indexButton, .aboutButton
+  border-radius: 4px
+  background-color: $locode
+  width: 212px
+  height: 42px
+  border: none
+  color: white
+  font-size: 11pt
+  letter-spacing: 1pt
+  transition: border-radius ease-in-out .2s
+  -webkit-transition: border-radius ease-in-out .2s
+  -moz-transition: border-radius ease-in-out .2s
+  -ms-transition: border-radius ease-in-out .2s
+
+.indexButton, .aboutButton
+  border-radius: 4px
+  background: none
+  width: 125px
+  height: 40px
+  border: 2pt white solid
+  color: white
+  font-size: 11pt
+  letter-spacing: 1pt
+  transition: background-color ease-in-out .4s, color ease-in-out .4s, border ease-in-out .4s
+  -webkit-transition: background-color ease-in-out .4s, color ease-in-out .4s, border ease-in-out .4s
+  -moz-transition: background-color ease-in-out .4s, color ease-in-out .4s, border ease-in-out .4s
+  -ms-transition: background-color ease-in-out .4s, color ease-in-out .4s, border ease-in-out .4s
+
+.buttons2
+  height: 55px
+  padding-top: 0
+  width: 130px
+  font-size: 12pt
+  color: white
+  background: none
+
+.buttons2 svg
+  width: 15pt
+  height: auto
+  margin-top: -9pt
+  margin-bottom: -9pt
+  margin-left: -60pt
+  opacity: 0
+  transition: opacity ease-in-out .4s, margin-left ease-in-out .4s
+
+.buttons2 span
+  transition: opacity ease-in-out .4s
+  opacity: 1
+  margin-left: -30pt
+
+.buttons2:hover span
+  opacity: 0
+
+.buttons2:hover svg
+  opacity: 1
+  margin-left: 3pt
+
+.buttons:hover
+  cursor: pointer
+  border-radius: 20pt
+
+.indexButton:hover, .aboutButton:hover
+  border: 2pt $locode solid
+
+.buttons:active, .indexButton:active
+  border-radius: 10pt
+
+.smallbtn:hover
+  cursor: pointer
+  border-radius: 30pt
+  background: red
+
+.buttons:active, .buttons:focus, .smallbtn:active, .smallbtn:focus
+  outline: none
+
+.redbg
+  background: red
+
+.redC
+  color: red
+
+.help
+  font-size: 12pt
+  width: 70pt
+  color: red
+  padding-left: 5pt
+  text-align: center
+  text-shadow: 0px 1px 1px 0px rgba(0,0,0,1)
+  transition: all ease-in-out .2s
+  -webkit-transition: all ease-in-out .2s
+  -moz-transition: all ease-in-out .2s
+  -ms-transition: all ease-in-out .2s
+
+.help:hover
+  cursor: pointer
+
+.help i
+  margin-right: 3pt
+  transition: all ease-in-out .2s
+  -webkit-transition: all ease-in-out .2s
+  -moz-transition: all ease-in-out .2s
+  -ms-transition: all ease-in-out .2s
+
+.help span
+  opacity: 1
+  transition: all ease-in-out .2s
+  -webkit-transition: all ease-in-out .2s
+  -moz-transition: all ease-in-out .2s
+  -ms-transition: all ease-in-out .2s
+
+.help:hover i
+  margin-right: -15pt
+  margin-left: 15pt
+
+.help:hover span
+  margin-left: -10pt
+  opacity: 0
+
+#drawer
+  top: -15%
+  position: fixed
+  z-index: 1000000000
+  background: rgba(255, 255, 255, .9)
+  font-size: 12pt
+  color: black
+  padding: 10pt
+  padding-bottom: 5pt
+  margin: auto 10pt
+  box-shadow: 0px 1px 0px 0px rgba(0,0,0, 0.1)
+  border-radius: 0 0 8pt 8pt
+  transition: top ease-in-out .4s
+  -webkit-transition: top ease-in-out .4s
+  -moz-transition: top ease-in-out .4s
+  -ms-transition: top ease-in-out .4s
+
+.helpContainer span
+  margin-bottom: 10pt
+
+#closeDrawer
+  transition: background-color ease-in-out .2s, color ease-in-out .2s
+  -webkit-transition: background-color ease-in-out .2s, color ease-in-out .2s
+  -moz-transition: background-color ease-in-out .2s, color ease-in-out .2s
+  -ms-transition: background-color ease-in-out .2s, color ease-in-out .2s
+
+#closeDrawer:hover
+  cursor: pointer
+  color: $locode
+
+.generateBtn
+  font-size: 18pt
+  font-family: bold
+  letter-spacing: 1px
+  color: white
+  margin: 2.3pt
+  height: 34px
+  width: 100%
+  border-radius: 4pt
+  background: rgba(255,0,0,.5)
+  border: thin rgba(255,0,0,.8) solid
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5)
+  transition: all ease-in-out .2s
+  -webkit-transition: all ease-in-out .2s
+  -moz-transition: all ease-in-out .2s
+  -ms-transition: all ease-in-out .2s
+
+.generateBtn:hover
+  background: rgba(255,255,255,.5)
+  border: thin rgba(255,255,255,.8) solid
+  color: red
+
+.marginReset
+  margin-bottom: 5pt
+
+header
+  background-color: $locode
+  position: fixed
+  z-index: 1000000000000
+  top: 0%
+  height: 55px
+  width: 100%
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.5)
+  font-size: 9pt
+  color: white
+  letter-spacing: 0.8px
+
+header a:hover .blockTag .logo span, .indexHeader a:hover .logo span, .aboutHeader a:hover .logo span,
+.index a:hover .logo span, header a:hover .logo span
+  text-decoration: none
+
+.coverBg
+  background-image: url(../../images/CoverImage.gif)
+  background-position: right top
+  background-size: cover
+  background-repeat: no-repeat
+  width: 100%
+  height: 683
+  top: 0%
+  transition: top ease-in-out .4s
+
+.line
+  padding-top: 150pt
+  background: rgba(0,0,0,.3)
+  transition: all ease-in-out .7s
+
+.coverBg:hover .line
+  background: rgba(0,0,0,.6)
+
+.line h1, .line h3
+  font-family: bold
+  color: $locode
+  font-size: 25pt
+
+.line h3
+  font-family: light
+  font-size: 13pt
+  margin-top: -10pt
+  letter-spacing: 1pt
+
+.line h3 span:last-child
+  border: thin dotted #999
+  border-left: none
+  border-right: none
+  font-size: 25pt
+  font-family: bold
+  display: inline-block
+  margin: 12pt auto auto
+  padding: 5pt
+  letter-spacing: normal
+
+.line svg
+  margin: 0 1pt 0 -5pt
+  width: 10pt
+  height: auto
+
+.coverBg:hover .scroll i, .coverBg:hover .scroll span
+  animation-name: fade
+  animation-duration: 1s
+  animation-iteration-count: infinite
+  animation-play-state: running
+  animation-direction: alternate
+  visibility: visible
+
+.coverBg:hover .scroll span
+  animation-direction: normal
+  animation-play-state: paused
+
+.scroll i
+  visibility: hidden
+  font-size: 40pt
+  color: white
+  margin-top: 150pt
+  transition: opacity ease-in-out .4s
+  -webkit-transition: opacity ease-in-out .4s
+  -moz-transition: opacity ease-in-out .4s
+  -ms-transition: opacity ease-in-out .4s
+
+.scroll span
+  visibility: hidden
+  margin-bottom: 50pt
+  font-size: 9pt
+  color: #888
+  transition: opacity ease-in-out .4s
+  -webkit-transition: opacity ease-in-out .4s
+  -moz-transition: opacity ease-in-out .4s
+  -ms-transition: opacity ease-in-out .4s
+
+@keyframes fade
+  from
+    opacity: 1
+  to
+    opacity: 0
+
+@keyframes slideup
+  from
+    top: 0%
+  to
+    top: -100%
+
+.about
+  font-size: 11pt
+  padding: 20pt 20pt
+  margin-bottom: 80pt
+
+.about p
+  padding: 20pt 0
+  padding-bottom: 0
+  line-height: 1.5
+
+.about h2
+  padding: 10pt
+  text-align: center
+  font-size: 13pt
+  font-family: bold
+  color: #000
+  letter-spacing: .5pt
+  border: dotted #999 thin
+
+.subTitle
+  margin-top: 20pt
+
+.subHeader, .subHeader2
+  position: fixed
+  z-index: 1000000000000
+  top: 41pt
+  height: 38px
+  width: 100%
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0)
+  font-size: 9pt
+  color: $locode
+  letter-spacing: 0.8px
+
+.subHeader
+  background-color: rgba(255,255,255,.3)
+  padding-bottom: 1pt
+  border-bottom: thin rgba(0,0,0,.1) solid
+
+.subHeader2
+  background-color: white
+  height: auto
+  font-size: 10pt
+  color: black
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0)
+
+.subHeader2 .default, .subHeader2 .active_useCase
+  width: 100%
+  font-family: regular
+
+.subHeader2 .default, .active_useCase
+  margin: 0 0.5pt
+  background: $locode
+  color: #fff
+  padding: 5pt 0
+  align-items: center
+  border-radius: 0 0 3pt 3pt
+
+.subHeader2 .default span, .subHeader2 .default i
+  transition: all ease-in-out .3s
+  -webkit-transition: all ease-in-out .3s
+  -moz-transition: all ease-in-out .3s
+  -ms-transition: all ease-in-out .3s
+
+.subHeader2 .default:first-child
+  border-radius: 0 0 3pt 0
+  margin-left: 0
+
+.subHeader2 .default:last-child
+  margin-right: 0
+  border-radius: 0 0 0 3pt
+
+.subHeader2 .active_useCase
+  background: white
+  color: $locode
+  align-items: center
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.0)
+
+.subHeader2 .active_useCase span
+  color: $locode
+
+.subHeader2 .default:hover
+  cursor: pointer
+  align-items: center
+
+.subHeader2 .default:hover span
+  opacity: 0
+
+.subHeader2 .default:hover i
+  margin-bottom: -7pt
+  margin-top: 7pt
+
+.triangle img
+  width: 30%
+  height: auto
+  display: block
+  margin: -3pt auto
+
+.subTitle2
+  margin: 60pt auto 20pt
+
+.subTitle2 h2
+  font-size: 18pt
+  color: #777
+  border-color: #777
+  background: none
+
+.useCase
+  font-size: 12pt
+  margin-top: 40pt
+
+.useCase span
+  border: solid transparent thin
+  padding: 10pt
+  margin: 0 10pt
+  border-radius: 3pt
+  color: white
+  letter-spacing: .5px
+
+.active_useCase, .default
+  display: flex
+  flex-direction: column
+  align-content: center
+
+.useCaseCol1
+  background: #c87532
+
+.useCaseCol2
+  background: #00c560
+
+.useCaseCol3
+  background: #d9b68d
+
+#emergency, #health, #individuals
+  display: none
+
+#emergency, #health, #individuals, #e-commerce
+  margin-bottom: 15pt
+
+#emergency svg, #health svg, #individuals svg, #e-commerce svg
+  margin-right: 5pt
+  width: 15pt
+  height: auto
+  margin-bottom: -5pt
+
+#subHeader
+  box-shadow: none
+
+.notification, .logo, .user
+  margin-top: 15pt
+
+.logo span, .logo svg
+  transition: all ease-in-out .3s
+  -webkit-transition: all ease-in-out .2s
+  -moz-transition: all ease-in-out .2s
+  -ms-transition: all ease-in-out .2s
+
+a:hover .logo span
+  opacity: 0
+  margin-left: -25pt
+
+a:hover .logo svg
+  margin-right: -10pt
+  width: 15pt
+  height: auto
+  margin-top: -7pt
+  margin-bottom: 0
+
+.index .logo
+  margin: 0
+  margin-top: 5pt
+
+.index a .logo span
+  transition: none
+
+.index a:hover .logo span
+  opacity: 1
+  margin: auto
+  margin-left: 5pt
+  margin-bottom: 5pt
+
+.index a:hover .logo svg
+  width: 10pt
+  height: auto
+  margin: auto
+
+.notification .fa, .count
+  font-size: 12pt
+  margin: auto 5pt auto 5pt
+
+.notification
+  margin-left: 5pt
+
+.count
+  background-color: white
+  padding: 0 4pt
+  font-size: 9pt
+  color: red
+  border-radius: 2pt
+  font-weight: bold
+
+.user, .notification
+  color: white
+
+.userDp, .userDp2
+  background-image: url(../../images/addressImages/dp.jpg)
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  width: 35px
+  height: 35px
+  margin: -5pt 10pt auto 5pt
+  border-radius: 50%
+  transition: opacity ease-in-out .4s, background-color ease-in-out .4s
+  -webkit-transition: opacity ease-in-out .4s, background-color ease-in-out .4s
+  -moz-transition: opacity ease-in-out .4s, background-color ease-in-out .4s
+  -ms-transition: opacity ease-in-out .4s, background-color ease-in-out .4s
+
+.userDp2
+  width: 200px
+  height: 200px
+  margin: 25pt auto 20pt auto
+
+header a:hover .notification span, header a:hover .user span
+  text-decoration: underline
+
+footer, .aboutFooter
+  background-color: white
+  position: fixed
+  z-index: 1000000000000
+  bottom: 0%
+  height: 55px
+  width: 100%
+  box-shadow: 0px -0px 1px 0px rgba(0,0,0, 0.4)
+
+.aboutFooter
+  background-color: black
+  font-size: 11pt
+  color: white
+  height: auto
+  width: 100%
+  box-shadow: 0px -0px 1px 0px rgba(0, 0, 0, .7)
+
+.aboutFooter a, .show
+  color: white
+  padding: 12pt 0
+  margin-top: 0
+  margin-bottom: 0
+
+.aboutFooter i
+  margin-right: 5pt
+  font-size: 14pt
+  transition: color ease-in-out .2s
+  -webkit-transition: color ease-in-out .2s
+  -moz-transition: color ease-in-out .2s
+  -ms-transition: color ease-in-out .2s
+
+.show
+  display: none
+
+.aboutFooter .more
+  margin-top: auto
+  color: white
+  transition: color ease-in-out .2s
+  -webkit-transition: color ease-in-out .2s
+  -moz-transition: color ease-in-out .2s
+  -ms-transition: color ease-in-out .2s
+
+.aboutFooter span
+  font-size: 10pt
+
+.aboutFooter .more:hover, .aboutFooter .more:hover i
+  color: #aaa
+  cursor: pointer
+
+.indexMenu a
+  transition: color ease-in-out .3s
+
+.menuItem
+  padding-top: 5pt
+  width: 100%
+  color: black
+  background-color: white
+  transition: background-color ease-in-out .2s, color ease-in-out .2s
+  -webkit-transition: background-color ease-in-out .2s, color ease-in-out .2s
+  -moz-transition: background-color ease-in-out .2s, color ease-in-out .2s
+  -ms-transition: background-color ease-in-out .2s, color ease-in-out .2s
+
+.menuItem:hover
+  color: $locode
+  cursor: pointer
+
+.menuItem span
+  font-size: 10pt
+
+.indexMenu a svg
+  margin-bottom: -4pt
+  margin-left: 5pt
+
+.menuItem .material-icons
+  font-size: 18pt
+
+.moreContent
+  background: rgba(10,157,200,1)
+  margin: 30pt auto
+  position: fixed
+  bottom: -270pt
+  z-index: 100000000
+  transition: bottom ease-in-out .4s
+  -webkit-transition: bottom ease-in-out .4s
+  -moz-transition: bottom ease-in-out .4s
+  -ms-transition: bottom ease-in-out .4s
+  box-shadow: 0px -1px 1px 0px rgba(0,0,0,.2)
+
+.moreContent span
+  font-size: 10pt
+
+.moreContent .row i
+  font-size: 15pt
+
+.moreContent i
+  font-size: 25pt
+
+.moreContent i:hover, .indexMenu a:hover
+  color: rgba(255, 255, 255, .5)
+  cursor: pointer
+
+.moreContent
+  padding: 5pt 0
+
+.moreContent .fullWidth
+  margin-bottom: 6pt
+
+.moreContent .row
+  padding: 5pt 5pt
+  margin: auto 20pt
+  border-bottom: thin rgba(255, 255, 255, .5) dotted
+
+.logo
+  font-size: 13pt
+  font-family: bold
+  font-weight:lighter
+  color: white
+
+.logo span
+  margin-left: 5pt
+  letter-spacing: 0.5pt
+
+header a:first-child:hover span, header a:last-child:hover span, header a:only-of-type(span):hover span
+  text-decoration: underline
+
+.login_signup, .innerPage, .mapInnerPage
+  background-color: white
+  border-radius: 8pt
+  margin: auto 5pt auto 0
+  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.3)
+  padding-top: 25pt
+
+.mapInnerPage
+  border-radius: 8pt
+  margin: auto
+  padding-top: 0
+
+.innerPage, .mapInnerPage
+  background: rgba(255,255,255,.9)
+  padding-bottom: 2pt
+
+.innerPage
+  padding-top: 1.5pt
+
+input[type=text], input[type=password], input[type=email]
+  background: none
+  border: none
+  border-bottom: thin solid lightgray
+  margin: auto 15pt 25pt 15pt
+  font-size: 10pt
+  padding-left: 10pt
+  padding-bottom: 5pt
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus
+  outline: none
+  border-bottom: thin solid $locode
+
+.login_signup_buttonMargin
+  margin: auto
+
+.top_bottom_borders
+  border-top: thin lightgray dotted
+
+.socialMedia
+  margin: 65pt 15pt auto 15pt
+
+.groupLabel
+  background-color: white
+  margin-top: -10pt
+  padding-left: 5pt
+  padding-right: 5pt
+  letter-spacing: 0.5px
+
+.socialMedia a
+  margin: 30pt
+  font-size: 9pt
+  color: #aaa
+  transition: color ease-in-out .4s
+  -webkit-transition: color ease-in-out .4s
+  -moz-transition: color ease-in-out .4s
+  -ms-transition: color ease-in-out .4s
+
+.socialMedia .fa
+  font-size: 20pt
+
+.socialMedia a:hover
+  color: $locode
+
+.blockTag .socialMedia .fa
+  font-size: 30pt
+  margin-bottom: 7pt
+
+.ifYouHave
+  margin: 40pt auto auto auto
+
+.ifYouHave a
+  font-size: 12pt
+  color: $locode
+  padding: 5pt 10pt
+  border-radius: 4pt
+  margin-bottom: 5pt
+  transition: background-color ease-in-out .4s
+  -webkit-transition: background-color ease-in-out .4s
+  -moz-transition: background-color ease-in-out .4s
+  -ms-transition: background-color ease-in-out .4s
+
+.ifYouHave a:hover
+  background-color: #e1e1e1
+
+.ifYouHave svg
+  width: 8pt
+  height: auto
+  margin: auto 5pt -2pt 5pt
+
+.profile
+  padding-top: 60pt
+
+.page_title
+  text-transform: uppercase
+  font-size: 10pt
+  font-family: bold
+  margin-bottom: 20pt
+  margin-top: -20pt
+  align-self: center
+  color: #aaa
+
+.dp
+  margin-bottom: 20pt
+
+.dp i
+  font-size: 120pt
+  color: #999
+
+.details
+  margin-bottom: 30pt
+  font-size: 13pt
+  line-height: 25pt
+
+.details .labels, .details .content
+  margin: auto 5pt auto 5pt
+
+.details .content
+  font-family: bold
+
+main
+  padding-bottom: 50pt
+
+.editProfile
+  border: 2.5pt $locode solid
+  padding: 5pt
+  width: 90px
+  height: 90px
+  border-radius: 50%
+  color: $locode
+  background-color: white
+  transition: color ease-in-out .3s, background-color ease-in-out .6s
+  -webkit-transition: color ease-in-out .3s, background-color ease-in-out .6s
+  -moz-transition: color ease-in-out .3s, background-color ease-in-out .6s
+  -ms-transition: color ease-in-out .3s, background-color ease-in-out .6s
+
+.editProfile
+  span
+    font-size: 11pt
+
+.editProfile:hover
+  cursor: pointer
+  background-color: $locode
+  color: white
+
+.editProfile:focus
+  outline: none
+
+.dp
+  font-size: 30pt
+  padding: 25pt
+
+.profileEditor form .imageHolder
+  background-image: url(../../images/addressImages/dp.jpg)
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  margin: 20pt
+  opacity: .5
+  transition: opacity ease-in-out .4s, background-color ease-in-out .4s
+  -webkit-transition: opacity ease-in-out .4s
+  -moz-transition: opacity ease-in-out .4s
+  -ms-transition: opacity ease-in-out .4s
+
+.addressImage
+  background-image: url(../../images/addressImages/img1.png)
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  border-radius: 4pt
+
+.mapInnerPage .addressDetail .addressImage, .wallet .addressImage
+  height: 28pt
+  width: 28pt
+  margin-right: 5pt
+
+.wallet .addressImage
+  margin-left: 5pt
+  height: 30pt
+  width: 30pt
+
+.innerPage .addressDetail .addressImage
+  height: 80px
+  width: 80px
+  margin-left: 10pt
+  margin-bottom: 10pt
+  margin-top: -20pt
+  border-radius: 8pt
+  align-self: flex-start
+
+.editProfileModal, .addressModal
+  position: fixed
+  z-index: 10000000000000
+  padding-top: 20pt
+  left: 0
+  top: -150%
+  width: 100%
+  height: 100%
+  background-color: rgb(0,0,0)
+  background-color: rgba(0,0,0,0.6)
+  transition: top ease-in-out .4s
+  -webkit-transition: top ease-in-out .4s
+  -moz-transition: top ease-in-out .4s
+  -ms-transition: top ease-in-out .4s
+
+@keyframes slidedown
+  from
+    top: -150%
+  to
+    top: 0%
+
+.profileEditor, .addressEditor
+  background-color: white
+  border-radius: 8pt
+  padding-top: 10pt
+  padding-bottom: 0
+  margin: 20pt
+  margin-top: auto
+
+.imageHolder
+  outline: none
+  border: none
+  height: 100pt
+  width: 100pt
+  border-radius: 8pt
+  background: none
+  color: gray
+
+.profileEditor .imageHolder
+  border-radius: 50%
+
+.imageHolder .col i
+  font-size: 50pt
+  display: none
+
+.addImage
+  background-image: url(../../images/addressImages/img2.png)
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  margin: 20pt
+  margin-top: -5pt
+  margin-bottom: 5pt
+  opacity: .5
+  transition: opacity ease-in-out .4s, background-color ease-in-out .4s
+  -webkit-transition: opacity ease-in-out .4s
+  -moz-transition: opacity ease-in-out .4s
+  -ms-transition: opacity ease-in-out .4s
+  width: 100px
+  height: 100px
+  border-radius: 8pt
+
+.addressEditor form .imageHolder
+  background-image: url(../../images/addressImages/img1.png)
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  margin: 20pt
+  opacity: .5
+  color: black
+  transition: opacity ease-in-out .4s, background-color ease-in-out .4s
+  -webkit-transition: opacity ease-in-out .4s
+  -moz-transition: opacity ease-in-out .4s
+  -ms-transition: opacity ease-in-out .4s
+
+.addressEditor form .imageHolder:hover, .profileEditor form .imageHolder:hover, .addImage:hover
+  opacity: 1
+  cursor: pointer
+
+.addressEditor form .buttons
+  margin-bottom: 10pt
+
+.modalForm
+  width: 100%
+
+.custom-file-input::-webkit-file-upload-button
+  display: none
+
+.custom-file-input::before
+  content: 'Add image'
+  -webkit-user-select: none
+  cursor: pointer
+  font-size: 10pt
+  font-weight: bold
+  transition: color ease-in-out .2s
+  font-weight: 800
+  color: black
+
+.custom-file-input:hover::before
+  border-color: black
+  color: black
+  text-decoration: underline
+
+.custom-file-input:focus
+  outline: none
+
+.custom-file-input:active::before
+  outline: none
+
+input[type=file]
+  margin: 10pt -95% auto auto
+
+.notified, .wallet
+  background-color: white
+  padding: 8pt
+  border-radius: 4pt
+  margin: 3pt
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.1)
+  transition: background-color ease-in-out .4s, color ease-in-out .4s
+  -webkit-transition: background-color ease-in-out .2s, color ease-in-out .2s
+  -moz-transition: background-color ease-in-out .2s, color ease-in-out .2s
+  -ms-transition: background-color ease-in-out .2s, color ease-in-out .2s
+
+.notified
+  width: 250pt
+
+.wallet
+  padding: 0
+  background-color: white
+  letter-spacing: 0.5px
+  transition-duration: .1s
+  height: 55px
+
+.notified_items i
+  font-size: 14pt
+  margin-right: 10pt
+
+.rightContent
+  font-size: 11.5pt
+
+.notified_items .count
+  font-size: 12pt
+  background: none
+  color: $locode
+  font-weight: 800
+  transition: color ease-in-out .4s
+  -webkit-transition: color ease-in-out .4s
+  -moz-transition: color ease-in-out .4s
+  -ms-transition: color ease-in-out .4s
+
+.notified:hover .count
+  color: white
+
+.back
+  margin-top: 20pt
+  color: #999
+
+.back i
+  border: 2pt #999 solid
+  font-size: 20pt
+  padding: 3pt
+  margin-bottom: 5pt
+  border-radius: 50%
+  transition: background-color ease-in-out .4s, color ease-in-out .4s, border-radius ease-in-out .2s, border-color ease-in-out .2s
+  -webkit-transition: background-color ease-in-out .4s, color ease-in-out .4s, border-radius ease-in-out .2s, border-color ease-in-out .2s
+  -moz-transition: background-color ease-in-out .4s, color ease-in-out .4s, border-radius ease-in-out .2s, border-color ease-in-out .2s
+  -ms-transition: background-color ease-in-out .4s, color ease-in-out .4s, border-radius ease-in-out .2s, border-color ease-in-out .2s
+
+.back:hover i
+  border-radius: 50%
+  color: white
+  border-color: $locode
+  border-radius: 50%
+  background: $locode
+  cursor: pointer
+
+.instruction, .generate
+  padding: 50pt
+  border-bottom: thin lightgray dotted
+
+.instruction
+  margin-left: 30pt
+  margin-right: 30pt
+  padding: 50pt 10pt
+  padding-top: 30pt
+
+.instruction i, .linkTag
+  color: $locode
+
+.generate
+  padding: 25pt
+
+.generate button
+  margin-bottom: 20pt
+
+.generate p
+  font-size: 14pt
+  text-align: center
+
+.subHeader a
+  width: 100%
+  padding: 9pt
+  padding-top: 10pt
+  padding-bottom: 8pt
+  text-align: center
+  border-right: thin #bbb dotted
+  color: #777
+  font-family: bold
+  border-bottom: #eee thin solid
+  font-size: 10pt
+  font-weight: 800
+  background-color: #eee
+  transition: all ease-in-out .4s
+  -webkit-transition: all ease-in-out .4s
+  -moz-transition: all ease-in-out .4s
+  -ms-transition: all ease-in-out .4s
+
+.subHeader .activeLink, .subHeader .activeLink:hover
+  background: #f8f8f8
+  border-bottom: #f8f8f8 thin solid
+  color: $locode
+
+.subHeader .locodeHover:hover
+  border-bottom: $locode thin solid
+  background: #eee
+  color: $locode
+
+.wallet
+  width: auto
+
+.wallet:hover i, .wallet:hover .code, .wallet:hover .address, .wallet:hover .addressTitle
+  color: white
+
+.addressTitle, .address, .code, .rating i
+  color: black
+
+.address
+  margin-right: 18pt
+
+.addressTitle
+  font-family: bold
+
+.rating
+  margin: 5pt
+  margin-top: 10pt
+  text-transform: uppercase
+  font-size: 9pt
+  font-family: bold
+
+.rating i
+  font-size: 10pt
+
+.code
+  color: #09b7ff
+
+.search
+  margin-top: 1.5pt
+
+.subHeader:hover .search input
+  background-color: rgba(250,250,250,1)
+
+.search input
+  width: 100%
+  border: solid thin lightgray
+  background-color: rgba(250,250,250,.7)
+  height: 30px
+  margin: 2pt
+  margin-right: 0
+  padding-bottom: 0
+  border-radius: 8pt 0 0 8pt
+  border-right: none
+  font-family: light
+  transition: all ease-in-out .2s,
+  -webkit-transition: all ease-in-out .2s
+  -moz-transition: all ease-in-out .2s
+  -ms-transition: all ease-in-out .2s
+
+.search input:focus
+  border-color: lightgray
+
+.search button
+  width: 30pt
+  background-color: white
+  color: black
+  border: thin solid lightgray
+  border-left: none
+  margin: 2pt 2pt 0 0
+  outline: none
+  height: 32px
+  padding: 3pt
+  border-radius: 0 8pt 8pt 0
+  transition: background-color ease-in-out .4s, color ease-in-out .4s
+  -webkit-transition: background-color ease-in-out .4s, color ease-in-out .4s
+  -moz-transition: background-color ease-in-out .4s, color ease-in-out .4s
+  -ms-transition: background-color ease-in-out .4s, color ease-in-out .4s
+
+.search:hover button
+  color: $locode
+
+.search button:hover
+  background-color: $locode
+  color: white
+  cursor: pointer
+
+.innerPage span
+  margin-bottom: 14pt
+
+.innerPage .blockTag
+  margin: auto 10pt
+
+.mapInnerPage .addressDetail
+  margin: 5pt
+  margin-bottom: 15pt
+
+.innerPage .details, .innerPage .detailLabel
+  font-size: 10pt
+  line-height: normal
+
+.innerPage .details
+  margin-right: -20pt
+
+.innerPage .detailLabel
+  text-align: right
+  margin-right: 15pt
+  color: #777
+  font-weight: bold
+
+.direction
+  width: 200pt
+
+.innerMenu, .mapInnerMenu
+  background-color: #f1f1f1
+  border: thin solid rgba(180,180,180,.1)
+  border-radius: 20pt 20pt 8pt 8pt
+  align-items: center
+  font-size: 9pt
+  margin: -10pt 2pt -1pt 2pt
+
+.innerMenu .col, .mapInnerMenu .row
+  color: black
+  margin: 5pt auto -10pt auto
+
+.mapInnerMenu .row
+  margin: 10pt 7pt
+
+.innerMenu i, .mapInnerMenu i
+  font-size: 12pt
+  margin-right: 3pt
+
+.innerMenu .col:hover span, .mapInnerMenu .row:hover span
+  text-decoration: underline
+
+#Add_direction, #Map_navigate
+  transition: all ease-in-out .4s
+  opacity: 0
+
+#Add_direction
+  opacity: 1
+
+.blockTag .spaceLine span
+  font-size: 9pt
+  font-family: bold
+  letter-spacing: 0.5px
+  width: 60pt
+
+.addressImage img, .addressImage i
+  width: 50px
+  height: auto
+  margin: 5pt
+  margin-top: 8pt
+  font-size: 45pt
+
+.addressImage i
+  margin: 5pt
+  margin-left: 0
+  color: #bbb
+  display: none
+
+.addressDetail .makeBold:first-child
+  padding-right: 5pt
+  margin-right: 5pt
+  border-right: thin solid black
+  margin-bottom: 5pt
+  height: 12px
+
+#map
+  margin-top: -50pt
+  width: 100%
+  height: 950px
+  overflow-y: scroll
+  overflow-x: scroll
+  background: lightgray
+
+.hide
+  display: none
+
+.addressEditor form .smallbtn
+  width: 90%
+  margin: auto auto 10pt auto
+
+@media (min-width: 530px)
+  .profileEditor, .addressEditor, .topCorrection1, .login_signup
+    width: 500px
+    margin-left: auto
+    margin-right: auto
+
+  .innerPage, .login_signup, .mapInnerPage
+    margin-top: 20pt
+    border-radius: 8pt
+
+  .innerPage, .mapInnerPage
+    left: 15pt
+
+  .search
+    width: 500px
+    margin-left: auto
+    margin-right: auto
+
+  .about h2
+    width: 270pt
+    display: block
+    margin-left: auto
+    margin-right: auto
+
+  .about p
+    width: 375pt
+    display: block
+    margin-left: auto
+    margin-right: auto
+
+  .about
+    margin-bottom: 100pt
+
+  .subTitle
+    margin: 50pt auto 30pt auto
+
+  .scroll i
+    margin-top: 150pt
+
+  .scroll span
+    margin-bottom: 50pt
+
+@media (max-width: 700px)
+
+  .show
+    display: flex
+
+  .show2
+    display: none
+
+@media (min-width: 700px)
+  .about p
+    font-size: 13pt
+
+@media (min-width: 1350px)
+  .line
+    padding-top: 150pt
+
+  .line h1
+    font-size: 40pt
+
+  .line h3
+    font-size: 25pt
+
+  .line h3 span:last-child
+    font-size: 40pt
+    display: inline-block
+    margin-top: 10pt
+
+  .line svg
+    margin: 0 1pt 0 -9pt
+    width: 16pt
+    height: auto
+
+  .scroll i
+    margin-top: 250pt
+
+  .scroll span
+    margin-bottom: 50pt
+
+@media (min-width: 1130px) and (max-width: 1350px)
+
+  .scroll i
+    margin-top: 150pt
+
+  .scroll span
+    margin-bottom: 50pt
+
+@media (min-width: 530px) and (max-width: 1350px)
+
+  .line h1
+    font-size: 25pt
+
+  .line h3
+    font-size: 18pt
+
+  .line h3 span:last-child
+    font-size: 30pt
+    display: inline-block
+
+  .line
+    padding-top: 150pt
+
+  .line svg
+    margin: 0 1pt 0 -6pt
+    width: 12pt
+    height: auto
+
+@media (min-height: 1000px)
+  #map
+    height: 1000px
+
+@media (min-height: 1250px)
+  #map
+    height: 1250px
+
+@media (min-height: 1350px)
+  #map
+    height: 1340px
+
+@media (max-width: 360px)
+  header a .notification span
+    display: none
+
+  header a .user span
+    display: none
+
+  .subHeader2
+    font-size: 9pt
+
+  .subTitle2
+    margin: 30pt auto 20pt
+
+  .useCase
+    margin-top: 20pt
+
+@media (max-height: 645px)
+  .subTitle2
+    margin: 40pt auto 20pt
+
+  .useCase
+    margin-top: 30pt
+
+
+@media (max-width: 340px)
+  .subHeader2
+    font-size: 8pt
+  #health .useCaseCol2
+    width: 40%
+
+@media (max-width: 400px)
+  main
+    padding-bottom: 0pt
+  .profile
+    padding-top: 20pt
+
+  .page_title
+    text-transform: uppercase
+    font-size: 10pt
+    font-family: bold
+    margin-bottom: auto
+    margin-top: 0pt
+    align-self: center
+    color: #aaa
+
+  .dp
+    margin-bottom: 10pt
+
+  .userDp2
+    width: 120px
+    height: 120px
+    margin: 25pt auto 20pt auto
+
+  .editProfile
+    border: 2pt $locode solid
+    padding: 5pt
+    width: 60px
+    height: 60px
+    margin-top: 20pt
+
+  .editProfile
+    span
+      font-size: 9pt
+
+  #addressModal input[type=text]
+    margin: auto 15pt 15pt 15pt
+
+  .imageHolder
+    height: 70pt
+    width: 70pt
+
+  .instruction, .generate
+    padding: 10pt
+
+  .instruction
+    padding: 15pt 0
+    padding-top: 15pt
+
+  .generate
+    padding: 15pt
+
+  .generate p
+    font-size: 11pt
+    text-align: center
+
+  .socialMedia
+    margin: 30pt 15pt 30pt 15pt
+
+  .socialMedia a
+    margin: 20pt
+    font-size: 9pt
+    margin-bottom: 20pt
+
+  .socialMedia .fa
+    font-size: 20pt
+
+  .socialMedia a:hover
+    color: $locode
+
+  .blockTag .socialMedia .fa
+    font-size: 20pt
+    margin-bottom: 4pt
+
+  .ifYouHave
+    margin: 20pt auto
+
+  .mapInnerPage
+    margin-bottom: -12pt
+
+  .details
+    margin-bottom: auto
+    font-size: 13pt
+    line-height: 25pt
+
+  .detailLabel .pushDown
+    margin-bottom: 25pt
+
+  .details .direction, .details .add
+    width: 165pt
+
+  .details .labels, .details .content
+    margin: auto 5pt auto 5pt
+
+  .details .content
+    font-family: bold
+
+  .innerPage .details, .innerPage .detailLabel
+    font-size: 10pt
+    line-height: normal
+
+  .innerPage .details
+    margin-right: -20pt
+
+  .innerPage .detailLabel
+    text-align: right
+    margin-right: 10pt
+    color: #777
+    font-weight: bold
+
+  #addressModal input[type=text]
+    margin: auto 15pt 15pt 5pt
+
+  #addressModal .blockTag
+    margin-top: -10pt
+
+@media (max-width: 414px)
+
+  .login_signup, .innerPage
+    padding-top: 25pt
+    border-radius: 0 0 8pt 8pt
+    width: 95%
+    display: block
+    margin: auto
+    margin-bottom: -12pt
+
+  .innerPage
+    border-radius: 8pt
+
+  @media (max-height: 580px)
+    .line
+      padding-top: 80pt
+
+    .line h1
+      font-size: 20pt
+
+    .line h3
+      font-size: 15pt
+      display: block
+      margin-left: 20pt
+      margin-right: 20pt
+
+    .line h3 span:last-child
+      font-size: 40pt
+      display: inline-block
+      margin-top: 10pt
+
+    .line svg
+      margin: 0 1pt 0 -9pt
+      width: 16pt
+      height: auto
+
+    .scroll i
+      margin-top: 50pt
+
+    .scroll span
+      margin-bottom: 50pt
+
+  @media (max-height: 730px) and (min-height: 580px)
+    .line
+      padding-top: 100pt
+
+    .line h1
+      font-size: 20pt
+
+    .line h3
+      font-size: 15pt
+      display: block
+      margin-left: 20pt
+      margin-right: 20pt
+
+    .line h3 span:last-child
+      font-size: 40pt
+      display: inline-block
+      margin-top: 10pt
+
+    .line svg
+      margin: 0 1pt 0 -9pt
+      width: 16pt
+      height: auto
+
+    .scroll i
+      margin-top: 80pt
+
+    .scroll span
+      margin-bottom: 60pt

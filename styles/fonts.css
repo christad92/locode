@@ -1,0 +1,30 @@
+@font-face {
+font-family: 'black';
+src: url('../fonts/ProximaNovaAltBlack.otf');
+}
+
+@font-face {
+font-family: 'bold';
+src: url('../fonts/ProximaNovaAltBold.otf');
+}
+
+@font-face {
+font-family: 'extraBold';
+src: url('../fonts/ProximaNovaAltExtrabold.otf');
+}
+
+@font-face {
+font-family: 'light';
+src: url('../fonts/ProximaNovaAltLight.otf');
+}
+
+@font-face {
+font-family: 'regular';
+src: url('../fonts/ProximaNovaAltRegular.otf');
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
